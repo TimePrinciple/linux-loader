@@ -31,6 +31,8 @@ much of the boot process remains the VMM's responsibility. See [Usage] for detai
     - [`hvm_memmap_table_entry`](https://elixir.bootlin.com/linux/latest/source/include/xen/interface/hvm/start_info.h#L152)
   - `aarch64` boot:
     - [`arm64_image_header`](https://elixir.bootlin.com/linux/latest/source/arch/arm64/include/asm/image.h#L44)
+  - `riscv64` boot:
+    - [`riscv64_image_header`](https://elixir.bootlin.com/linux/latest/source/arch/riscv/include/asm/image.h#L51)
 
 ## Usage
 
